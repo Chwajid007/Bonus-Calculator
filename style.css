@@ -1,0 +1,89 @@
+*{
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #8990ec;
+}
+
+.tipcal {
+    border-radius: 15px;
+    background-color: rgb(3, 3, 48);
+    color: white;
+    padding: 100px;
+    width: 250px;
+    height: 400px;
+    margin: 100px auto;
+}
+
+.container {
+    margin-left: -4.55rem;
+}
+
+
+.title {
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.inputcontainer{
+    background-color: rgba(99, 89, 241, 0.233);
+    border-radius: 20px;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 390px;
+}
+#billtotalinput, #tipinput {
+    font-size: 1.2rem;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+
+.control {
+    display: flex;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.buttonContainer{
+    margin: 0.1rem;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+#splitButton{
+    display: grid;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: #8990ec;
+    width: 2.0rem;
+    height: 2.0rem;
+}
+
+.splitAmount {
+    font-size: 25px;
+    margin: 0.7rem;
+    place-items: center;
+}
+
+
+.totalContainer {
+    margin-left: 9rem;
+  }
+  
+.total {
+    font-size: 2rem;
+  }
+
+#perPersonTotal{
+    margin: 2rem;
+}
